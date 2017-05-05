@@ -1,0 +1,1046 @@
+html, body {
+    height: 100%;
+    font-size: 1vw;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: table;
+    font-weight: 100;
+}
+
+img{
+    padding: 0.1%;
+}
+
+textarea{
+    vertical-align: middle;
+}
+
+/*Azul padrão*/
+.promeblue{
+    color: rgba(0, 102, 204, 0.8);
+}
+
+.promeblue-claro{
+    color: #78BCFF;
+}
+/*--------------------*/
+
+.navbar{
+    border: rgba(0, 102, 204, 0.8) solid 0px;
+}
+
+.navbar-btn-fontsize{
+    font-size: 112.5%
+}
+
+.btn-cadastre-se {
+    font-weight:bold;
+    padding:15px 30px;
+    color:#CC0000 !important;
+}
+
+.sub-header {
+    padding-bottom:10px;
+}
+
+/*MAPA Brasil Homepage*/
+div#mapaBrasil svg path {
+    fill:#428BCA; stroke:#EEE;
+    cursor:pointer;
+}
+
+div#mapaBrasil svg path:hover {
+    fill:#337AB7;
+    stroke:#EEE
+}
+/*-------------------------*/
+
+/*Logotipo Promessômetro*/
+.navbar-brand {
+    min-width: 299px;
+    min-height: 57px;
+    color: transparent !important;
+    background: url('../img/logotipo.png') no-repeat center;
+}
+
+.navbartop-m{
+    margin-top: 0.7%;
+    margin-bottom: 0.7%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+/*--------------------------*/
+
+/*Formatação da área de login na navbar*/
+.formlogin{
+    float:left;
+    margin-right:20px;
+}
+
+.formlogin input, label { /*Sincronizar Label e Input*/
+    display:block;
+    font-size: 127.5%;
+}
+/*--------------------------*/
+
+/*Botões da barra de navegação*/
+.navbar-nav li button {
+    margin-top: 10%;
+    margin-left: 1em;
+    font-weight: bold;
+}
+
+.button-presta{
+    background-color: #33cc33;
+    border-color: #2eb82e;
+}
+
+.button-presta:hover{
+    background-color: #2eb82e;
+    border-color: #29a329;
+}
+
+.button-presta i:active{
+    background-color: #2eb82e !important;
+    border-color: #29a329;
+}
+
+/*Campos de preencimento da barra de navegação*/
+.navbar-nav input {
+    font-size: 80%;
+    width: 110px;
+    height: 22px;
+    margin: 0px;
+    border-color: transparent !important;
+    border-radius: 4px;
+    font-family: Adobe Devanagari;
+    color: black;
+}
+
+/*Label da barra de navegação*/
+.navbar-nav label{
+    color: #FFF;
+}
+
+/*Segunda parte (azul escuro) da navbar superior*/
+.second-div{
+    background-color: rgb(31, 78, 139);
+    height: 5%;
+    margin-top: 1%;
+    padding-left: 5%;
+}
+
+.second-div a{
+    padding-right:1%;
+    font-size: 150%;
+    color: #FFF !important;
+    transition: 0.3s linear;
+    text-decoration: none;
+}
+
+.second-div a:hover {
+    color: #ffff00  !important;
+    transition: 0.3s linear;
+}
+/*--------------------------------------------------*/
+
+/*Rodapé (ou barra de navegação inferior)*/
+.navbar-inverse {
+    padding: 12px 0px;
+    background: rgba(0, 102, 204, 0.8);
+}
+
+.navbar-foot li{
+    list-style-type: none;
+}
+
+.navbar-foot a{
+    font-size: 120%;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.navbar-foot a:hover{
+    color: #87CEFA;
+}
+
+.direitosautorais{
+    color: #d9d9d9;
+}
+/*-------------------------------------*/
+
+.dropdown-inverse {
+    background: rgba(0, 102, 204, 0.8);
+}
+
+.dropdown-inverse li a {
+    color: #999;
+}
+
+.dropdown-inverse li a:hover {
+    color: #FFF;
+    background: none;
+}
+
+.jumbotron {
+    margin: 0rem;
+}
+
+section.sobre {
+    color: #FFF;
+    padding: 36.5vh 0vh;
+    margin: auto;
+    background-image: url('../img/brasil.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+section.sobre div.container {
+    margin: auto;
+}
+
+section.sobre p {
+    padding-bottom: 3rem;
+}
+
+.caption h3 {
+    margin-bottom: 0rem;
+}
+
+q {
+    font-style: italic;
+}
+
+q::before{
+    color: #777;
+    font-size: 5rem;
+    content: "\201C";
+    line-height: 0rem;
+    padding-right: 0.5rem;
+    vertical-align: -1.6rem;
+}
+
+q::after {
+    color: #777;
+    font-size: 5rem;
+    content: "\201D";
+    line-height: 0rem;
+    vertical-align: -1.6rem;
+}
+
+.bg-depoimentos {
+    background: url('../img/bg-depoimentos.png');
+}
+
+.img-circle {
+    border-radius: 50%;
+    max-width: 220px;
+    max-height: 205px;
+}
+
+.thumbnail {
+    background: none !important;
+    border: none !important;
+}
+
+.caption p {
+    color: #fff;
+    text-align: center;
+}
+
+.middlecenter-cadastra{ /*"MOLDURA" das páginas*/
+    list-style-type: none;
+    background-color: white;
+    padding-top: 10em;
+    padding-right: 4em;
+    padding-left: 4em;
+    padding-bottom: 3em;
+}
+
+.cadastra-stepline{ /*"MOLDURA" das páginas que contém stepline*/
+    list-style-type: none;
+    background-color: white;
+    padding-top: 82px;
+    padding-right: 20px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    margin:auto;
+}
+
+/*Tipos de listas*/
+.nostyle-list{ /*Lista sem estilo, apenas com as opções enfileiradas*/
+    list-style: none;
+}
+/*--------------------------*/
+
+
+/*Linhas de separação*/
+
+.rightline:before,  /*Linha à direita (Vertical) gradiente -azul claro/azul escuro-*/
+.rightline:after {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 100%;
+  width: 1px;
+  height: 50%;
+}
+
+.rightline:before {
+  top: 0;
+  background: linear-gradient(to top, rgba(0, 102, 204, 0.6) 0%, #d9d9d9 100%);
+}
+
+.rightline:after {
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(0, 102, 204, 0.6) 0%, #d9d9d9 100%);
+}
+
+/*Linhas gradientes -azul claro/azul escuro- (tag HR)*/
+.gradient-line{ 
+    height: 1px;
+    background-image: linear-gradient(to right, #d9d9d9,rgba(0, 102, 204, 0.6), #d9d9d9 );
+}
+
+/*Linha pontilhada (MEUS DADOS)*/
+.pointline{ 
+    border-bottom: 1px gray dashed;
+    padding-bottom: 5px;
+}
+/*-----------------------------------------*/
+
+/*Padding e margin*/
+.p-m-null{
+    padding:0px; 
+    margin: 0px;
+}
+
+.margin-tmi{
+    margin: 10px 0px;
+}
+
+.margin-bot{
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.largemargin-bot{
+    margin-bottom: 40px !important;
+}
+
+.p-fifty{
+    padding: 0px;
+    padding-left: 50px;
+    margin: 0px;
+}
+
+.margin-p{
+    margin: 15px 10px;
+}
+
+.formatacao-telas-cadastro{
+    padding: 25px;
+    min-height: 400px;
+    max-height: auto;
+}
+/*---------------------------*/
+
+/*Design de algumas partes da tela de Metas Detalhadas*/
+div.selecao-tema{
+    border-radius:3em;
+    background-color: rgba(8, 150, 230, 1); 
+    height: 4em;
+    padding: 0.1em;
+}
+
+.selecao-tema li{
+    font-size:112.5%; 
+    color:white;
+    vertical-align: middle;
+    float: left;
+    padding-left: 10px;
+}
+
+.selecao-tema input{
+    color:black; 
+    padding: 0.1em;
+    margin: 0.5em;
+}
+
+.selecao-tema button{
+    font-family: agency FB;
+    padding: 0.3em;
+    margin: 0.5em;
+    background-color: white;
+    color: rgba(8, 150, 230, 1);
+    font-size: 120%;
+}
+
+.selecao-tema button:hover{
+    font-family: agency FB;
+    font-size: 10%
+    padding: 0.3em;
+    margin: 0.5em;
+    background-color: white;
+    color: rgba(8, 150, 230, 1);
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,0.24), 0 5px 12px 0 rgba(0,0,0,0.19);
+}
+
+.semcomentario{
+    background-color:#ADD8E6;
+}
+
+/*------------------------------------*/
+
+/*Tipos de input*/
+.inputnormal-color-bg{ /*Campo de preenchimento (input) com background colorido*/
+    padding:5px;
+    border-radius: 5px;
+    border-color: transparent !important;
+    height: 217.5%;
+}
+
+.inputnormal{ /*Campo de preenchimento (input) normal*/
+    height:225%; 
+    width:90%;
+    border-radius:5px; 
+    padding:5px;
+    border: 1px #A9A9A9 solid;
+}
+
+.inputlist{ /*Campo de preenchimento (input) com lista (combobox)*/
+    height:225%; 
+    width:50%; 
+    border-radius:5px; 
+    padding:5px;
+    border: 1px #A9A9A9 solid; 
+}
+
+.dateinputlist{ /*Campo de preenchimento (input) com lista (combobox)*/
+    height:235%; 
+    width:70%; 
+    border-radius:5px; 
+    padding:5px;
+    border: 1px #A9A9A9 solid; 
+}
+
+.smallinputlist{
+    height:225%; 
+    width:38%; 
+    border-radius:5px; 
+    padding:5px;
+    border: 1px #A9A9A9 solid; 
+}
+
+.s-inputnormal{
+    height:225%; 
+    width:50%; 
+    border-radius:5px; 
+    padding:5px;
+    border: 1px #A9A9A9 solid; 
+}
+
+.inputtext{ /*Campo de preenchimento (input) para textos*/
+    height:7em;
+    max-height:7em;
+    min-height:7em; 
+    width:20em;
+    min-width:20em;
+    max-width:20em;
+    border-radius:5px; 
+    padding:5px;
+    border: 10% #A9A9A9 solid;
+}
+
+.smallinput{ /*Campo de preenchimento (input) normal*/
+    height:225%; 
+    width:70%;
+    border-radius:5px; 
+    padding:5px;
+    border: 1px #A9A9A9 solid;
+}
+
+.partidoinput{
+    height:225%;  
+    width:150%;
+    border-radius:5px; 
+    padding:5px;
+    border: 1px #A9A9A9 solid;
+}
+
+.verysmallinput{ /*Campo de preenchimento (input) normal*/
+    height:225%;  
+    width:20%;
+    border-radius:5px; 
+    padding:5px;
+    border: 1px #A9A9A9 solid;
+}
+/*-----------------------*/
+
+/*FONTES DO SITE*/
+.titulo{
+    font-size: 450%;
+    font-family: Agency FB;
+}
+
+.subtitulo{
+    font-size: 300%;
+    font-family: Agency FB;
+}
+
+.subtitulo2{
+    font-size: 225%;
+    font-family: Agency FB;
+}
+
+.subtitulo2-alignright{
+    font-size:225%;
+    font-family: Agency FB;
+    text-align: right;
+}
+
+.subtitulo3{
+    font-size:180%;
+    font-family: Agency FB;
+}
+
+.subtitulo4{
+    font-size:150%;
+    font-family: Agency FB;
+}
+
+.fonte-menudados{
+    font-weight: normal !important;
+    font-family: Agency  FB;
+    font-size: 142.5%;
+}
+
+.texto{
+    padding:10px;
+    font-size: 135%;
+    font-family: Adobe Devanagari;
+}
+
+.subtitulo-barra{
+    border-left-style:solid; 
+    padding-left:10px;
+}
+
+.input{
+    font-family: Adobe Devanagari;
+    font-size: 127.5%;
+}
+
+.centralizafonte{
+    text-align: center;
+}
+
+.justificafonte{
+    text-align: justify;
+}
+
+.agencyfb{
+    font-family: agency FB;
+}
+
+.adobedevanagari{
+    font-family: Adobe Devanagari;
+}
+
+.meusdados-tabela{
+    font-size:150%;
+    font-family: Agency FB;
+}
+
+.meusdados-texto{
+    padding:10px;
+    font-size: 112.5%;
+    font-family: Adobe Devanagari;
+}
+
+.parag-inline{
+    display: inline;
+}
+
+.align-input-label{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.align-input-label{
+    display: inline-block;
+}
+/*-----------------------------------*/
+
+/*ELEMENTOS DA TELA DE TEMAS*/
+
+.button-theme{
+    height:100px;
+    width: 100px;
+    border-radius:20%; 
+    background-color: rgba(8,150,204,1);
+    transition:0.5s linear;
+    display: block; 
+    margin: 0 auto;
+}
+
+.button-theme:hover{
+    background-color: rgba(230,230,5,1) ;
+}
+
+.graph-city{
+    padding-left:45px;
+}
+
+.height-div{
+    height: 175px;
+}
+
+.glyphicon-theme{
+    color:white;
+    font-size:375%;
+}
+/*----------------------------*/
+
+/*ELEMENTOS DA VALIDACAO DO CADASTRO*/
+
+.major-box-validation{
+    background-color:#cee1f2;
+    height:600px;
+    border-radius:30px;
+    border:1px solid #5b9bd5;
+    margin-bottom:50px
+}
+
+.glyphicon-validation{
+    font-size:1125%;
+     padding-top:40px;
+     color:#88e04e;
+}
+
+.minor-box-validation{
+    margin-top:45px;
+    border:1px solid #5b9bd5;
+     border-radius:10px;
+}
+
+.subtitulo3-validation{
+    font-size:195%;
+    font-family: Agency FB;
+    color:#70ad47;
+}
+
+.texto-validation{
+    padding:10px;
+    font-size: 135%;
+    font-family: Adobe Devanagari;
+    color:#1f4e79;
+}
+
+/*----------------------------*/
+
+/*MEUS DADOS*/
+/*Barrinha de navegação*/
+.open{
+    margin-left:20px;
+}
+
+.margemleft-meusdados{
+    margin-left:35px;
+    padding: 10px 0px;
+}
+
+.margemleft-meusdados p{
+    padding: 0px 10px; 
+}
+
+.meusdados{
+    font-height: normal !important;
+    display: block;
+    color:black;
+    
+}
+
+.meusdados label{
+    padding-left: 8px;
+}
+
+.meusdados label:hover{
+    text-decoration: none;
+    color:black;
+    cursor: pointer;
+    background-color: #cce6ff;
+    border-radius: 5px;
+    width:250px;
+}
+
+.geralnotificacoes{
+    cursor:pointer;
+}
+
+.marcador{
+    list-style-type: initial;
+}
+
+/*----------------------------*/
+
+/*contador parte GERAL*/
+.contador{
+    padding: 5px 15px;
+    background-color: gray;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    border-radius: 5px;
+}
+/*----------------------------*/
+
+/*Glyphicon*/
+
+.triangulo{
+    float:right; 
+    font-size:97.5%; 
+    padding: 6px;"
+}
+
+.formataglyp{
+    font-size: 112.5%;
+    padding:6px;
+}
+
+/*----------------------------*/
+
+/*INPUT E H3 administração geral de usuários*/
+
+.admgeral-user{
+    float:right;
+    padding:5px;
+    margin:8px 0px;
+    vertical-align: middle;
+}
+
+.admgeral-user input{
+    margin-left:4px;
+}
+
+/*---------------------------*/
+
+/*ELEMENTOS DO TO DE OLHO*/
+
+.button-eye{
+
+    height:100px;
+    width:500px;
+    border-radius:25px;
+    margin-left:50px;
+    background-color: rgba(8,150,204,1);
+    transition:0.5s linear;
+    color:white;
+
+}
+
+.button-eye:hover{
+    background-color: rgba(230,230,5,1) ;
+}
+
+/*------------------*/
+
+/*ELEMENTOS DA PRESTACAO DE CONTAS*/
+
+.textarea-PrestCont{
+    height:300px;
+    width:1100px;
+    margin-left:10px;
+}
+
+/*----------------------------------------------------------------------------------------------------------*/
+.accordions{
+    width:1000px;
+    margin:0 auto;
+    padding-left: 50px;
+}
+
+.accordion-item input{display:none;}
+ 
+.accordion-item label{
+    display: inline-block;
+    background: white;
+    cursor:pointer;
+}
+ 
+.accordion-content{
+    height: 0px;
+    overflow: hidden;
+    -webkit-transition: height 0.3s ease-in-out;
+    -moz-transition: height 0.3s ease-in-out;
+    -o-transition: height 0.3s ease-in-out;
+    -ms-transition: max-height 0.3s ease-in-out;
+    transition: height 0.3s ease-in-out;
+}
+ 
+[id^=accordion]:checked ~ .accordion-content {
+    height: auto;
+}
+
+/*carousel part*/
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img
+
+.carousel {
+    position: relative
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden
+}
+.carousel-inner>.item {
+    position: relative;
+    display: none;
+    -webkit-transition: .6s ease-in-out left;
+    -o-transition: .6s ease-in-out left;
+    transition: .6s ease-in-out left
+}
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img {
+    line-height: 1
+}
+@media all and (transform-3d),
+(-webkit-transform-3d) {
+    .carousel-inner>.item {
+        -webkit-transition: -webkit-transform .6s ease-in-out;
+        -o-transition: -o-transform .6s ease-in-out;
+        transition: transform .6s ease-in-out;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-perspective: 1000px;
+        perspective: 1000px
+    }
+    .carousel-inner>.item.active.right,
+    .carousel-inner>.item.next {
+        left: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0)
+    }
+    .carousel-inner>.item.active.left,
+    .carousel-inner>.item.prev {
+        left: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0)
+    }
+    .carousel-inner>.item.active,
+    .carousel-inner>.item.next.left,
+    .carousel-inner>.item.prev.right {
+        left: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+.carousel-inner>.active,
+.carousel-inner>.next,
+.carousel-inner>.prev {
+    display: block
+}
+.carousel-inner>.active {
+    left: 0
+}
+.carousel-inner>.next,
+.carousel-inner>.prev {
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+.carousel-inner>.next {
+    left: 100%
+}
+.carousel-inner>.prev {
+    left: -100%
+}
+.carousel-inner>.next.left,
+.carousel-inner>.prev.right {
+    left: 0
+}
+.carousel-inner>.active.left {
+    left: -100%
+}
+.carousel-inner>.active.right {
+    left: 100%
+}
+.carousel-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    font-size: 150%;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, 0);
+    filter: alpha(opacity=50);
+    opacity: .5
+}
+.carousel-control.left {
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .0001)));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .5) 0, rgba(0, 0, 0, .0001) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x
+}
+.carousel-control.right {
+    right: 0;
+    left: auto;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, .5)));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .0001) 0, rgba(0, 0, 0, .5) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+    background-repeat: repeat-x
+}
+.carousel-control:focus,
+.carousel-control:hover {
+    color: #fff;
+    text-decoration: none;
+    filter: alpha(opacity=90);
+    outline: 0;
+    opacity: .9
+}
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next,
+.carousel-control .icon-prev {
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    display: inline-block;
+    margin-top: -10px
+}
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev {
+    left: 50%;
+    margin-left: -10px
+}
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next {
+    right: 50%;
+    margin-right: -10px
+}
+.carousel-control .icon-next,
+.carousel-control .icon-prev {
+    width: 20px;
+    height: 20px;
+    font-family: serif;
+    line-height: 1
+}
+.carousel-control .icon-prev:before {
+    content: '\2039'
+}
+.carousel-control .icon-next:before {
+    content: '\203a'
+}
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgba(8, 150, 230, 1);
+    background-color: rgba(8, 150, 230, 1);
+    border: 1px solid #fff;
+    border-radius: 10px
+}
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: rgba(8, 130, 200, 1);
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6)
+}
+.carousel-caption .btn {
+    text-shadow: none
+}
+@media screen and (min-width: 768px) {
+    .carousel-control .glyphicon-chevron-left,
+    .carousel-control .glyphicon-chevron-right,
+    .carousel-control .icon-next,
+    .carousel-control .icon-prev {
+        width: 30px;
+        height:225%; 
+        margin-top: -10px;
+        font-size: 225%
+    }
+    .carousel-control .glyphicon-chevron-left,
+    .carousel-control .icon-prev {
+        margin-left: -10px
+    }
+    .carousel-control .glyphicon-chevron-right,
+    .carousel-control .icon-next {
+        margin-right: -10px
+    }
+    .carousel-caption {
+        right: 20%;
+        left: 20%;
+        padding-bottom: 30px
+    }
+    .carousel-indicators {
+        bottom: 20px
+    }
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0
+}
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    clip: auto
+}
+
+.graph-goalind{
+    padding-left:65px;
+    padding-top:175px;
+}
+
+.navbarlogin {
+    width: 600px;
+}
